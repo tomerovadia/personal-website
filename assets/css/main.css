@@ -1631,7 +1631,7 @@
 	}
 
 	body {
-		background: #312450;
+		background: #f4f4f4;
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -3024,6 +3024,7 @@
 		flex-direction: row;
 		min-height: 22.5em;
 		border-bottom: 1px solid #e2e2e2;
+		padding-left: 30px;
 	}
 
 		body.is-ie .spotlights > section {
@@ -3244,7 +3245,7 @@
 	}
 
 		.wrapper > .inner {
-			padding: 0em 5em 3em 5em ;
+			padding: 0em 5em 3em 3em ;
 			max-width: 100%;
 			width: 75em;
 		}
@@ -3252,7 +3253,7 @@
 			@media screen and (max-width: 1680px) {
 
 				.wrapper > .inner {
-					padding: 4em 4em 2em 4em ;
+					padding: 4em 4em 2em 2em ;
 				}
 
 			}
@@ -3501,7 +3502,7 @@
 /* Wrapper (main) */
 
 	#sidebar + #wrapper {
-		margin-left: 18em;
+		margin-left: 14em;
 	}
 
 		@media screen and (max-width: 1280px) {
@@ -3569,7 +3570,7 @@
 		position: fixed;
 		text-align: right;
 		top: 0;
-		width: 18em;
+		width: 14em;
 		z-index: 10000;
 	}
 
@@ -3784,6 +3785,7 @@
 			position: relative;
 			text-decoration: none;
 			text-transform: uppercase;
+			font-size: 0.8em;
 		}
 
 			#sidebar nav a:before, #sidebar nav a:after {
@@ -3945,7 +3947,7 @@
 
 		.splash-image {
 				float: right;
-				width: 50%;
+				width: 55%;
 		}
 
 		.splash-image img {
@@ -4019,24 +4021,24 @@
 }
 
 #white-house-logo {
-	height: 150px;
+	height: 140px;
 }
 
 #politico-logo {
-	height: 40px;
+	height: 35px;
 }
 
 
 #haas-logo {
-	height: 80px;
+	height: 70px;
 }
 
 #app-academy-logo {
-	height: 80px;
+	height: 70px;
 }
 
 #general-assembly-logo {
-	height: 100px;
+	height: 90px;
 }
 
 #node-logo {
@@ -4054,9 +4056,36 @@
 .contact-logos-ul {
 	list-style: none;
 	display: flex;
-	justify-content: space-around;
+	justify-content: flex-end;
+	margin: 7px 0;
+}
+
+.contact-logos-ul a {
+	margin-left: 23px;
 }
 
 .contact-logos-ul a img {
 	height: 30px;
+}
+
+.project-section {
+	display: flex;
+}
+
+
+.project-image-anchor {
+	width: 40%;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
+
+
+.project-image {
+	width: 100%;
+}
+
+.project-section div.project-content {
+	width: 60%;
+	display: flex;
 }
