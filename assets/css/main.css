@@ -3595,21 +3595,21 @@
 			-webkit-transition: opacity 1s ease;
 			-ms-transition: opacity 1s ease;
 			transition: opacity 1s ease;
-			min-height: 100%;
 			opacity: 1;
 			width: 100%;
+			margin-top: 70px;
 		}
 
 			body.is-ie #sidebar > .inner {
 				height: 100%;
 			}
 
-		#sidebar nav > ul {
+		#sidebar-nav nav > ul {
 			list-style: none;
 			padding: 0;
 		}
 
-			#sidebar nav > ul > li {
+			#sidebar-nav nav > ul > li {
 				-moz-transform: translateY(0);
 				-webkit-transform: translateY(0);
 				-ms-transform: translateY(0);
@@ -3624,151 +3624,151 @@
 				position: relative;
 			}
 
-				#sidebar nav > ul > li:first-child {
+				#sidebar-nav nav > ul > li:first-child {
 					margin: 0;
 				}
 
-				#sidebar nav > ul > li:nth-child(1) {
+				#sidebar-nav nav > ul > li:nth-child(1) {
 					-moz-transition-delay: 0.45s;
 					-webkit-transition-delay: 0.45s;
 					-ms-transition-delay: 0.45s;
 					transition-delay: 0.45s;
 				}
 
-				#sidebar nav > ul > li:nth-child(2) {
+				#sidebar-nav nav > ul > li:nth-child(2) {
 					-moz-transition-delay: 0.65s;
 					-webkit-transition-delay: 0.65s;
 					-ms-transition-delay: 0.65s;
 					transition-delay: 0.65s;
 				}
 
-				#sidebar nav > ul > li:nth-child(3) {
+				#sidebar-nav nav > ul > li:nth-child(3) {
 					-moz-transition-delay: 0.85s;
 					-webkit-transition-delay: 0.85s;
 					-ms-transition-delay: 0.85s;
 					transition-delay: 0.85s;
 				}
 
-				#sidebar nav > ul > li:nth-child(4) {
+				#sidebar-nav nav > ul > li:nth-child(4) {
 					-moz-transition-delay: 1.05s;
 					-webkit-transition-delay: 1.05s;
 					-ms-transition-delay: 1.05s;
 					transition-delay: 1.05s;
 				}
 
-				#sidebar nav > ul > li:nth-child(5) {
+				#sidebar-nav nav > ul > li:nth-child(5) {
 					-moz-transition-delay: 1.25s;
 					-webkit-transition-delay: 1.25s;
 					-ms-transition-delay: 1.25s;
 					transition-delay: 1.25s;
 				}
 
-				#sidebar nav > ul > li:nth-child(6) {
+				#sidebar-nav nav > ul > li:nth-child(6) {
 					-moz-transition-delay: 1.45s;
 					-webkit-transition-delay: 1.45s;
 					-ms-transition-delay: 1.45s;
 					transition-delay: 1.45s;
 				}
 
-				#sidebar nav > ul > li:nth-child(7) {
+				#sidebar-nav nav > ul > li:nth-child(7) {
 					-moz-transition-delay: 1.65s;
 					-webkit-transition-delay: 1.65s;
 					-ms-transition-delay: 1.65s;
 					transition-delay: 1.65s;
 				}
 
-				#sidebar nav > ul > li:nth-child(8) {
+				#sidebar-nav nav > ul > li:nth-child(8) {
 					-moz-transition-delay: 1.85s;
 					-webkit-transition-delay: 1.85s;
 					-ms-transition-delay: 1.85s;
 					transition-delay: 1.85s;
 				}
 
-				#sidebar nav > ul > li:nth-child(9) {
+				#sidebar-nav nav > ul > li:nth-child(9) {
 					-moz-transition-delay: 2.05s;
 					-webkit-transition-delay: 2.05s;
 					-ms-transition-delay: 2.05s;
 					transition-delay: 2.05s;
 				}
 
-				#sidebar nav > ul > li:nth-child(10) {
+				#sidebar-nav nav > ul > li:nth-child(10) {
 					-moz-transition-delay: 2.25s;
 					-webkit-transition-delay: 2.25s;
 					-ms-transition-delay: 2.25s;
 					transition-delay: 2.25s;
 				}
 
-				#sidebar nav > ul > li:nth-child(11) {
+				#sidebar-nav nav > ul > li:nth-child(11) {
 					-moz-transition-delay: 2.45s;
 					-webkit-transition-delay: 2.45s;
 					-ms-transition-delay: 2.45s;
 					transition-delay: 2.45s;
 				}
 
-				#sidebar nav > ul > li:nth-child(12) {
+				#sidebar-nav nav > ul > li:nth-child(12) {
 					-moz-transition-delay: 2.65s;
 					-webkit-transition-delay: 2.65s;
 					-ms-transition-delay: 2.65s;
 					transition-delay: 2.65s;
 				}
 
-				#sidebar nav > ul > li:nth-child(13) {
+				#sidebar-nav nav > ul > li:nth-child(13) {
 					-moz-transition-delay: 2.85s;
 					-webkit-transition-delay: 2.85s;
 					-ms-transition-delay: 2.85s;
 					transition-delay: 2.85s;
 				}
 
-				#sidebar nav > ul > li:nth-child(14) {
+				#sidebar-nav nav > ul > li:nth-child(14) {
 					-moz-transition-delay: 3.05s;
 					-webkit-transition-delay: 3.05s;
 					-ms-transition-delay: 3.05s;
 					transition-delay: 3.05s;
 				}
 
-				#sidebar nav > ul > li:nth-child(15) {
+				#sidebar-nav nav > ul > li:nth-child(15) {
 					-moz-transition-delay: 3.25s;
 					-webkit-transition-delay: 3.25s;
 					-ms-transition-delay: 3.25s;
 					transition-delay: 3.25s;
 				}
 
-				#sidebar nav > ul > li:nth-child(16) {
+				#sidebar-nav nav > ul > li:nth-child(16) {
 					-moz-transition-delay: 3.45s;
 					-webkit-transition-delay: 3.45s;
 					-ms-transition-delay: 3.45s;
 					transition-delay: 3.45s;
 				}
 
-				#sidebar nav > ul > li:nth-child(17) {
+				#sidebar-nav nav > ul > li:nth-child(17) {
 					-moz-transition-delay: 3.65s;
 					-webkit-transition-delay: 3.65s;
 					-ms-transition-delay: 3.65s;
 					transition-delay: 3.65s;
 				}
 
-				#sidebar nav > ul > li:nth-child(18) {
+				#sidebar-nav nav > ul > li:nth-child(18) {
 					-moz-transition-delay: 3.85s;
 					-webkit-transition-delay: 3.85s;
 					-ms-transition-delay: 3.85s;
 					transition-delay: 3.85s;
 				}
 
-				#sidebar nav > ul > li:nth-child(19) {
+				#sidebar-nav nav > ul > li:nth-child(19) {
 					-moz-transition-delay: 4.05s;
 					-webkit-transition-delay: 4.05s;
 					-ms-transition-delay: 4.05s;
 					transition-delay: 4.05s;
 				}
 
-				#sidebar nav > ul > li:nth-child(20) {
+				#sidebar-nav nav > ul > li:nth-child(20) {
 					-moz-transition-delay: 4.25s;
 					-webkit-transition-delay: 4.25s;
 					-ms-transition-delay: 4.25s;
 					transition-delay: 4.25s;
 				}
 
-		#sidebar nav a {
+		#sidebar-nav nav a {
 			-moz-transition: color 0.2s ease;
 			-webkit-transition: color 0.2s ease;
 			-ms-transition: color 0.2s ease;
@@ -3788,7 +3788,7 @@
 			font-size: 0.8em;
 		}
 
-			#sidebar nav a:before, #sidebar nav a:after {
+			#sidebar-nav nav a:before, #sidebar-nav nav a:after {
 				border-radius: 0.2em;
 				bottom: 0;
 				content: '';
@@ -3799,11 +3799,11 @@
 				background: #dadada;
 			}
 
-			#sidebar nav a:before {
+			#sidebar-nav nav a:before {
 				background: #dadada;
 			}
 
-			#sidebar nav a:after {
+			#sidebar-nav nav a:after {
 				background-image: -moz-linear-gradient(to right, #dadada, black);
 				background-image: -webkit-linear-gradient(to right, #dadada, black);
 				background-image: linear-gradient(to right, #dadada, black);
@@ -3815,16 +3815,16 @@
 				max-width: 0;
 			}
 
-			#sidebar nav a:hover {
-				color: rgba(255, 255, 255, 0.55);
+			#sidebar-nav nav a:hover {
+				color: black;
 			}
 
-			#sidebar nav a.active {
+			#sidebar-nav nav a.active {
 				color: black;
 				font-weight: 900;
 			}
 
-				#sidebar nav a.active:after {
+				#sidebar-nav nav a.active:after {
 					max-width: 100%;
 				}
 
@@ -3832,7 +3832,7 @@
 			opacity: 0;
 		}
 
-		body.is-loading #sidebar nav ul li {
+		body.is-loading #sidebar-nav nav ul li {
 			-moz-transform: translateY(2em);
 			-webkit-transform: translateY(2em);
 			-ms-transform: translateY(2em);
@@ -3866,12 +3866,12 @@
 					line-height: inherit;
 				}
 
-				#sidebar nav {
+				#sidebar-nav nav {
 					height: inherit;
 					line-height: inherit;
 				}
 
-					#sidebar nav ul {
+					#sidebar-nav nav ul {
 						display: -moz-flex;
 						display: -webkit-flex;
 						display: -ms-flex;
@@ -3881,7 +3881,7 @@
 						margin: 0;
 					}
 
-						#sidebar nav ul li {
+						#sidebar-nav nav ul li {
 							display: block;
 							height: inherit;
 							line-height: inherit;
@@ -3889,13 +3889,13 @@
 							padding: 0;
 						}
 
-					#sidebar nav a {
+					#sidebar-nav nav a {
 						height: inherit;
 						line-height: inherit;
 						padding: 0;
 					}
 
-						#sidebar nav a:after {
+						#sidebar-nav nav a:after {
 							background-image: none;
 							background-color: black;
 						}
@@ -3922,6 +3922,10 @@
 
 		#intro p {
 
+		}
+
+		#intro div.intro-splash {
+			padding: 30px 70px;
 		}
 
 		.splash-contents {
@@ -4088,4 +4092,29 @@
 .project-section div.project-content {
 	width: 60%;
 	display: flex;
+}
+
+.get-in-touch-section {
+	margin-top: 50px;
+}
+
+#contact-div {
+	width: 100%;
+}
+
+.bottom-contact-logos-ul {
+	margin-top: 70px;
+	display: flex;
+	justify-content: space-around;
+	list-style: none;
+}
+
+.bottom-contact-logos-ul img {
+	height: 130px;
+}
+
+.email-contact-a {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
