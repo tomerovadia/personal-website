@@ -4024,6 +4024,10 @@
 .experience-logos-ul img {
 }
 
+li img.ajax-logo {
+	width: 90px;
+}
+
 #white-house-logo {
 	height: 140px;
 }
